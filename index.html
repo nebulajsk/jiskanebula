@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiska Diany Nebula</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Dekorasi Cahaya Latar Belakang -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <!-- Navigasi -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span>JiskaNebula</span>.</div>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#kegemaran">Kegemaran</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Beranda / Hero Section -->
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h3>Halo, Selamat Datang 👋</h3>
+            <h1>Saya <span class="highlight">Jiska Diany Nebula</span></h1>
+            <p>Mahasiswa Ilmu Komputer & Teknik Informatika</p>
+            <div class="hero-buttons">
+                <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+                <a href="#tentang" class="btn btn-secondary">Tentang Saya</a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <div class="img-container">
+                <!-- Ganti 'foto-jiska.jpg' dengan nama file foto Anda -->
+                <img src="jiska1.jpeg" alt="Foto Jiska Diany Nebula" id="profile-preview" onerror="this.src='https://ui-avatars.com/api/?name=Jiska+Diany&background=d946ef&color=fff&size=400'">
+                
+                <!-- Tombol opsional untuk coba upload foto langsung di browser -->
+                <label for="upload-photo" class="upload-badge" title="Ganti Foto">
+                    <i class="fa-solid fa-camera"></i>
+                </label>
+                <input type="file" id="upload-photo" accept="image/*" hidden>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="tentang" class="about">
+        <h2 class="section-title">Tentang <span>Saya</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    Halo! Saya seorang mahasiswi yang sedang menempuh pendidikan di bidang <strong>Ilmu Komputer dan Teknik Informatika</strong>. 
+                    Saya memiliki ketertarikan mendalam pada pengembangan web (web development), pemrograman komputer, serta perancangan antarmuka pengguna yang bersih dan estetis.
+                </p>
+                <p>
+                    Saya terbiasa menggunakan Visual Studio Code untuk mengeksplorasi bahasa pemrograman seperti HTML, CSS, C++, dan Python. Bagi saya, teknologi adalah sarana terbaik untuk mewujudkan kreativitas menjadi karya yang nyata.
+                </p>
+                <div class="bio-details">
+                    <div class="bio-item"><i class="fa-solid fa-cake-candles"></i> <span>21 September 2007</span></div>
+                    <div class="bio-item"><i class="fa-solid fa-location-dot"></i> <span>Villa Melia Jl.Bango,RT.09/RW.08,
+                        Rawakalong,Gunung Sindur,Bogor</span></div>
+                    <div class="bio-item"><i class="fa-solid fa-graduation-cap"></i> <span>Ilmu Komputer & Teknik Informatika</span></div>
+                    <div class="bio-item"><i class="fa-solid fa-envelope"></i> <span>nebulajsk@email.com</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pendidikan -->
+    <section id="pendidikan" class="education">
+        <h2 class="section-title">Riwayat <span>Pendidikan</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Sedang Berjalan</div>
+                <div class="timeline-content">
+                    <h3>S1 Ilmu Komputer & Teknik Informatika</h3>
+                    <p>Mempelajari dasar-dasar ilmu komputer, algoritma pemrograman, struktur data, dan rekayasa perangkat lunak.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 - 2026</div>
+                <div class="timeline-content">
+                    <h3>SMK Negeri 5 Tangerang Selatan</h3>
+                    <p>Program Keahlian Farmasi. Mempelajari disiplin ilmu kesehatan, ketelitian, serta analisis prosedural.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">2020 - 2023</div>
+                <div class="timeline-content">
+                    <h3>SMP Negeri 7 Tangerang Selatan</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kegemaran -->
+    <section id="kegemaran" class="hobbies">
+        <h2 class="section-title">Kegemaran & <span>Minat</span></h2>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Coding & Web Design</h3>
+                <p>Membangun antarmuka web responsif dengan palet warna pink-ungu favorit dan mengeksplorasi logika pemrograman.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="fa-solid fa-headphones-simple"></i>
+                <h3>Mendengarkan Musik</h3>
+                <p>Menikmati berbagai genre musik sebagai teman setia saat belajar, menulis kode, maupun bersantai mencari inspirasi baru.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Membaca & Menulis</h3>
+                <p>Aktif menuangkan imajinasi dan karya tulis kreatif melalui platform digital seperti Wattpad dan Karyakarsa.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="fa-solid fa-flag-checkered"></i>
+                <h3>Formula 1</h3>
+                <p>Mengikuti dunia balap mobil Formula 1, termasuk riset seputar pembalap muda seperti Andrea Kimi Antonelli.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="contact">
+        <h2 class="section-title">Hubungi <span>Saya</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Mari Terhubung!</h3>
+                <p>Punya proyek menarik, pertanyaan, atau ingin berdiskusi? Silakan hubungi saya melalui media sosial atau kirimkan pesan langsung.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/jiskanbla" target="_blank"><i class="fa-brands fa-instagram"></i> @jiskanbla</a>
+                    <a href="https://tiktok.com/@nebuuuulaaaa" target="_blank"><i class="fa-brands fa-tiktok"></i> @nebuuuulaaaa</a>
+                    <a href="mailto:nebulajsk@email.com"><i class="fa-solid fa-envelope"></i> nebulajsk@email.com</a>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Pesan berhasil terkirim! Terima kasih.');">
+                <div class="form-group">
+                    <input type="text" placeholder="Nama Lengkap" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Alamat Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Pesan Anda..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jiska Diany Nebula. Dibuat dengan HTML & CSS ✨</p>
+    </footer>
+
+    <!-- Script ringan untuk preview ganti foto langsung di halaman -->
+    <script>
+        document.getElementById('upload-photo').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.
+</body>
+</html>
